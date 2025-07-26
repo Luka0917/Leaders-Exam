@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+}
+#div-1{
+    width: 190px;
+}
+header p{
+    font-size: 30px;
+    font-weight: 600;
+}
+header #reg-log-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+header #reg-log-div button{
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#log{
+    background-color: white;
+    transition: background-color 0.2s;
+}
+#reg{
+    background-color: black;
+    color: white;
+    transition: background-color 0.2s;
+}
+#log:hover{
+    background-color: black;
+    color: white;
+}
+#reg:hover{
+    background-color: white;
+    color: black;
+}
+#post-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 30px;
+}
+#post-div-p-1{
+    font-size: 30px;
+    font-weight: 600;
+}
+#post-div form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#post-div form label{
+    font-size: 20px;
+}
+#post-div form input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#text{
+    height: 150px;
+}
+#post-div form button{
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+#post-div form button:hover{
+    background-color: white;
+    color: black;
+}
+#text-lab, #public-private-div{
+    margin-top: 20px;
+}
+#public-private-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#error-p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: red;
+}
+#main{
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    gap: 47px;
+}
+.post-div{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.post-title{
+    font-size: 20px;
+}
+.post-text{
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    margin-top: 50px;
+}
+#user-div{
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#username-p{
+    font-size: 20px;
+    font-weight: 600;
+}

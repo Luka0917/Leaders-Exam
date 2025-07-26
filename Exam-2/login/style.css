@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 30px;
+}
+#log-p{
+    font-size: 30px;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+form input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+form button{
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+form button:hover{
+    background-color: white;
+    color: black;
+}
+#error-p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: red;
+}

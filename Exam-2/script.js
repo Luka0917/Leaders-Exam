@@ -7,8 +7,8 @@ const postDiv = document.getElementById('post-div');
 const data = JSON.parse(localStorage.getItem('data'));
 
 
-loginBtn.addEventListener('click', () => window.open('/Exam-2/login/index.html', '_self'));
-registerBtn.addEventListener('click', () => window.open('/Exam-2/register/index.html', '_self'));
+loginBtn.addEventListener('click', () => window.open('./login/index.html', '_self'));
+registerBtn.addEventListener('click', () => window.open('./register/index.html', '_self'));
 
 
 let haveAcc = false;

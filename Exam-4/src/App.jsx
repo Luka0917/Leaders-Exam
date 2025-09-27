@@ -23,7 +23,7 @@ function App() {
             <i className={`${theme === 'dark' ? 'text-[#b4c0d4]' : 'text-[#878e99]'} text-[20px] font-[300]`}>Pick a subject to get started.</i>
           </div>
           <div className="flex justify-center items-center flex-col gap-[20px]">
-            <Link to={'/'} className={`${theme === 'dark' ? 'bg-[#3c4d67]' : 'bg-[#B6BBC4]'} flex justify-start items-center gap-[20px] py-[11px] pl-[12px] rounded-[12px] w-[430px] cursor-pointer`}>
+            <Link to={'/HTML'} className={`${theme === 'dark' ? 'bg-[#3c4d67]' : 'bg-[#B6BBC4]'} flex justify-start items-center gap-[20px] py-[11px] pl-[12px] rounded-[12px] w-[430px] cursor-pointer`}>
               <div className="flex justify-center items-center p-[8px] bg-[#ffeee1] rounded-[10px]">
                 <img src="../src/assets/icon-html.svg" alt="" className="pointer-events-none" />
               </div>
